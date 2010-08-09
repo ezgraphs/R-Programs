@@ -1,0 +1,55 @@
+Language;Repositories;Users;Source Code
+ActionScript;2609;1104;0
+Arc;48;15;0
+ASP;88;35;0
+Assembly;41;5;0
+Boo;41;6;0
+C;16137;5558;0
+C#;6061;2706;0
+C++;12521;5595;0
+Clojure;2082;481;0
+CoffeeScript;34;2;0
+ColdFusion;180;56;0
+Common Lisp;0;0;0
+D;197;64;0
+Delphi;43;16;0
+Duby;4;0;0
+Eiffel;39;15;0
+Emacs Lisp;0;0;0
+Erlang;2520;532;0
+F#;74;5;0
+FORTRAN;93;47;0
+Go;398;103;0
+Groovy;870;261;0
+Haskell;2290;641;0
+HaXe;75;14;0
+Io;57;3;0
+Java;17687;6618;0
+JavaScript;44482;10895;0
+Lua;1754;511;0
+Max/MSP;4;2;0
+Nu;40;4;0
+Objective-C;8027;2520;0
+Objective-J;355;109;0
+OCaml;382;121;0
+ooc;112;11;9396
+Perl;34232;2178;0
+PHP;21685;8872;0
+Pure Data;0;0;0
+Python;32150;8775;0
+R;191;69;0
+Racket;20;8;0
+Ruby;104239;23123;0
+Scala;2154;539;0
+Scheme;707;140;0
+sclang;2;0;0
+Self;7;3;0
+Shell;4657;1011;0
+Smalltalk;80;14;0
+SuperCollider;53;11;0
+Tcl;125;39;0
+Vala;27;3;0
+Verilog;74;26;0
+VHDL;64;14;0
+VimL;4248;1267;0
+Visual Basic;0;0;0
