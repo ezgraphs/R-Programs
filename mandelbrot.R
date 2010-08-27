@@ -36,17 +36,21 @@ for(a in step)
 
 df=as.data.frame(points)	
 
+# Can change the colors by fiddling with the following.
+# last_plot() + scale_colour_manual(values=sort(c("#00000000", rainbow(23)), decreasing=FALSE))
+
 ggplot(data=df, aes(V1, V2, color=cl[V3]))+ 
-   geom_point() + 
-   opts(panel.background=theme_blank(), 
+geom_point() + 
+opts(panel.background=theme_blank(), 
       panel.grid.major=theme_blank(), 
       panel.grid.minor=theme_blank(), 
       axis.ticks=theme_blank(), 
       axis.text.x=theme_blank(), 
       axis.text.y=theme_blank(), 
       axis.title.x=theme_blank(), 
-      axis.title.y=theme_blank(),
-      legend.position = 'none' )  
+      axis.title.y=theme_blank(), legend.position = 'none')  
 
-# Can change the colors by fiddling with the following.
-# last_plot() + scale_colour_manual(values=sort(c("#00000000", rainbow(23)), decreasing=FALSE))
+ggsave('mandelbrot_ggplot2.png')
+
+print('Image Saved.')
+dev.off()
