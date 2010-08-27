@@ -1,3 +1,5 @@
+library(ggplot)
+
 max_iter=25
 cl=colours()
 step=seq(-2,0.8,by=0.005)
