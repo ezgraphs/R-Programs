@@ -1,4 +1,4 @@
-library(ggplot)
+library(ggplot2)
 
 max_iter=25
 cl=colours()
