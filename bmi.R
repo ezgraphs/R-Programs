@@ -34,8 +34,8 @@ print(create_bmi_dataframe(bmi_end=30))
 # BMI
 # Weight 		Status
 # Below 18.5	Underweight
-# 18.5 – 24.9	Normal
-# 25.0 – 29.9	Overweight
+# 18.5 to 24.9	Normal
+# 25.0 to 29.9	Overweight
 # 30.0 and Above	Obese
 #
 # http://en.wikipedia.org/wiki/Body_mass_index
@@ -69,3 +69,4 @@ ggplot(data=df2, aes(x=height, y=value, group=variable, color=variable)) +
   scale_y_continuous('Weight in Pounds') 
 
 ggsave('BMI.png')
+dev.off()
