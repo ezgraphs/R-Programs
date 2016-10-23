@@ -1,0 +1,7 @@
+Apollo, Launch,       Landing,     Landing Site,           Latitude.N,  Longitude.E,   EVA.hours,Traverse.km,   Sample.Return.kg  
+11,    16 Jul 1969,  20 Jul 1969,  Mare Tranquillitatis,     0.674,       23.473,        2.53,       0.25,      21.7  
+12,    14 Nov 1969,  19 Nov 1969,  Oceanus Procellarum,     -3.014,       -23.419,       7.75,       1.35,      34.4
+14,    31 Jan 1971,  05 Feb 1971,  Fra Mauro,               -3.645,       -17.471,       9.38,       3.45,      42.9
+15,    26 Jul 1971,  30 Jul 1971,  Hadley Rille,            26.132,        3.634,       19.13,      27.9,       76.8
+16,    16 Apr 1972,  20 Apr 1972,  Descartes,               -8.973,       15.499,       20.23,      27.0,       94.7
+17,    07 Dec 1972,  11 Dec 1972,  Taurus-Littrow,          20.188,       30.775,       22.07,      35.0,       110.5
