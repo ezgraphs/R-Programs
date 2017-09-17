@@ -7,7 +7,10 @@ library(tibble)
 # Prepare data
 df <- mtcars %>%
  rownames_to_column( var = "car" ) %>% # tibble
- mutate_each(funs(rescale), -car) %>% # scales
+
+# > old line > mutate_each(funs(rescale), -car) %>% 
+
+ mutate_at(vars(2:12), rescale) %>% # scales
  melt(id.vars=c('car'), measure.vars=colnames(mtcars)) %>% 
  arrange(car)
 
